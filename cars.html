@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop Oto | Danh sách xe</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a href="index.html" class="brand">
+        <span class="brand-mark">SO</span>
+        <span>Shop Oto</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="cars.html" class="active">Xe</a>
+        <a href="news.html">Tin tức</a>
+        <a href="services.html">Dịch vụ</a>
+        <a href="about.html">Về chúng tôi</a>
+        <a href="contact.html">Liên hệ</a>
+      </nav>
+      <div class="header-actions">
+        <a href="login.html" class="btn btn-outline">Đăng nhập</a>
+        <a href="contact.html" class="btn btn-primary">Đặt lịch xem xe</a>
+        <button class="menu-toggle">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="container">
+      <h1>Danh sách xe tại Shop Oto</h1>
+      <p>Tìm kiếm mẫu sedan, SUV, hatchback, bán tải và nhiều dòng xe phù hợp cho gia đình, đi phố hoặc công việc.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Tất cả</button>
+        <button class="filter-btn" data-filter="toyota">Toyota</button>
+        <button class="filter-btn" data-filter="mazda">Mazda</button>
+        <button class="filter-btn" data-filter="ford">Ford</button>
+        <button class="filter-btn" data-filter="hyundai">Hyundai</button>
+      </div>
+
+      <div class="grid grid-3">
+        <article class="card" data-brand="toyota">
+          <div class="card-media">
+            <span class="car-badge">Toyota</span>
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop" alt="Toyota Camry">
+          </div>
+          <div class="card-body">
+            <h3>Toyota Camry 2.5Q</h3>
+            <div class="price">1.320.000.000 VNĐ</div>
+            <div class="card-meta"><span>Sedan</span><span>2025</span><span>Tự động</span></div>
+            <p>Thiết kế sang trọng, vận hành êm ái, nội thất rộng rãi.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-brand="mazda">
+          <div class="card-media">
+            <span class="car-badge">Mazda</span>
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop" alt="Mazda CX-5">
+          </div>
+          <div class="card-body">
+            <h3>Mazda CX-5 Premium</h3>
+            <div class="price">899.000.000 VNĐ</div>
+            <div class="card-meta"><span>SUV</span><span>2025</span><span>5 chỗ</span></div>
+            <p>SUV hiện đại, công nghệ an toàn, phù hợp gia đình trẻ.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-brand="ford">
+          <div class="card-media">
+            <span class="car-badge">Ford</span>
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop" alt="Ford Ranger">
+          </div>
+          <div class="card-body">
+            <h3>Ford Ranger Wildtrak</h3>
+            <div class="price">965.000.000 VNĐ</div>
+            <div class="card-meta"><span>Bán tải</span><span>2025</span><span>Diesel</span></div>
+            <p>Mạnh mẽ, bền bỉ, nhiều trang bị tiện nghi cao cấp.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-brand="hyundai">
+          <div class="card-media">
+            <span class="car-badge">Hyundai</span>
+            <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=1200&auto=format&fit=crop" alt="Hyundai Tucson">
+          </div>
+          <div class="card-body">
+            <h3>Hyundai Tucson</h3>
+            <div class="price">845.000.000 VNĐ</div>
+            <div class="card-meta"><span>SUV</span><span>2025</span><span>Xăng</span></div>
+            <p>Thiết kế cá tính, nội thất thông minh, dễ sử dụng hằng ngày.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-brand="toyota">
+          <div class="card-media">
+            <span class="car-badge">Toyota</span>
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?q=80&w=1200&auto=format&fit=crop" alt="Toyota Corolla Cross">
+          </div>
+          <div class="card-body">
+            <h3>Toyota Corolla Cross</h3>
+            <div class="price">860.000.000 VNĐ</div>
+            <div class="card-meta"><span>Crossover</span><span>2025</span><span>Hybrid</span></div>
+            <p>Tiết kiệm nhiên liệu, gầm cao, vận hành thực dụng.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+
+        <article class="card" data-brand="mazda">
+          <div class="card-media">
+            <span class="car-badge">Mazda</span>
+            <img src="https://images.unsplash.com/photo-1584345604476-8ec5e12e42dd?q=80&w=1200&auto=format&fit=crop" alt="Mazda 3">
+          </div>
+          <div class="card-body">
+            <h3>Mazda 3 Sport</h3>
+            <div class="price">689.000.000 VNĐ</div>
+            <div class="card-meta"><span>Sedan</span><span>2025</span><span>Thể thao</span></div>
+            <p>Phong cách trẻ trung, lái linh hoạt, trang bị tốt trong tầm giá.</p>
+            <div class="mt-20"><a href="car-detail.html" class="btn btn-primary">Chi tiết</a></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand">
+            <span class="brand-mark">SO</span>
+            <span>Shop Oto</span>
+          </a>
+          <p class="mt-20">Website bán xe hiện đại, hỗ trợ tìm xe, xem giá, trả góp và đặt lịch lái thử.</p>
+        </div>
+        <div>
+          <h4>Liên kết</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">Giới thiệu</a></li>
+            <li><a href="cars.html">Danh sách xe</a></li>
+            <li><a href="promotions.html">Khuyến mãi</a></li>
+            <li><a href="faq.html">Câu hỏi thường gặp</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Dịch vụ</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Bảo dưỡng</a></li>
+            <li><a href="finance.html">Tài chính</a></li>
+            <li><a href="showroom.html">Showroom</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Thông tin</h4>
+          <ul class="footer-links">
+            <li>Hotline: 0900 123 456</li>
+            <li>Email: nhomtui@gmail.com</li>
+            <li>Địa chỉ: VanLang</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> Shop Oto. All rights reserved.</span>
+        <span>Thiết kế bởi bạn và VS Code 😎</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
